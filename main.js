@@ -1,6 +1,6 @@
 //main.js
 
-import { adicionarNaLista, getLista, limparLista } from "./lista.js"
+import { adicionaNaLista, getLista, limparLista } from "./lista.js"
 
 const pEntrada = document.querySelector('#entrada')
 const olSaida = document.querySelector('#itens')
@@ -14,7 +14,7 @@ atualizarItensDeLista()
 
 function criaElementoNaLista(){
     const texto = pEntrada.textContent
-    adicionarNaLista(texto)
+    adicionaNaLista(texto)
     atualizarItensDeLista()
     pEntrada.textContent=""
     pEntrada.focus()
