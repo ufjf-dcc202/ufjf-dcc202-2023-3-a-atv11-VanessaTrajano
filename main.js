@@ -7,10 +7,14 @@ const olSaida = document.querySelector('#itens')
 const btnAdicionar = document.querySelector('#adicionar')
 const btnLimpar = document.querySelector('#limpar')
 
+btnLimpar.addEventListener('click', LimparElementosDaLista)
 
 atualizarItensDeLista()
-limparLista()
-atualizarItensDeLista()
+
+function LimparElementosDaLista(){
+    limparLista()
+    atualizarItensDeLista()
+}
 
 function atualizarItensDeLista(){
     olSaida.innerHTML = ""
