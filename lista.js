@@ -8,4 +8,8 @@ function limparLista(){
     lista.splice(0, 3)
 }
 
-export {getLista, limparLista}
+function adicionarNaLista(novoItem){
+    lista.push(novoItem)
+}
+
+export {getLista, limparLista, adicionarNaLista}
