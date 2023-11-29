@@ -1,5 +1,7 @@
 //main.js
 
+import { getLista } from "./lista"
+
 const pEntrada = document.querySelector('#entrada')
 const olSaida = document.querySelector('#itens')
 const btnAdicionar = document.querySelector('#adicionar')
