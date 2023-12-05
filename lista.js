@@ -5,7 +5,7 @@ function getLista(){
 }
 
 function limpaLista(){
-    lista.splice(0, 3)
+    lista.splice(0)
 }
 
 function adicionaNaLista(novoItem){
