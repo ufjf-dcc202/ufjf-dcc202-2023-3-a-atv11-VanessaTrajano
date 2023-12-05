@@ -1,6 +1,6 @@
 //main.js
 
-import { adicionaNaLista, getLista, limparLista } from "./lista.js"
+import { adicionaNaLista, getLista, limpaLista } from "./lista.js"
 
 const pEntrada = document.querySelector('#entrada')
 const olSaida = document.querySelector('#itens')
@@ -21,7 +21,7 @@ function criaElementoNaLista(){
 }
 
 function limparElementosDaLista(){
-    limparLista()
+    limpaLista()
     atualizarItensDeLista()
 }
 

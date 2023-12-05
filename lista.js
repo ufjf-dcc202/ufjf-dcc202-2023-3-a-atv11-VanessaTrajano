@@ -4,7 +4,7 @@ function getLista(){
     return lista
 }
 
-function limparLista(){
+function limpaLista(){
     lista.splice(0, 3)
 }
 
@@ -12,4 +12,8 @@ function adicionaNaLista(novoItem){
     lista.push(novoItem)
 }
 
-export {getLista, limparLista, adicionaNaLista}
+function removeDaLista(indice){
+    lista.splice(indice, 1)
+}
+
+export {getLista, limpaLista, adicionaNaLista, removeDaLista}
